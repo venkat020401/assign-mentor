@@ -108,4 +108,4 @@ route.post('/addMentor-toStudents', async (req, res) => {
     }
 });
 
-route.listen(8000, () => { console.log("server started at port 8000") });
+route.listen(8000);
